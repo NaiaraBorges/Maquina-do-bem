@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+.card-container-2 {
+    display: grid;
+    padding: 0 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 30%;
+}
+
+.card-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+    display: grid;
+    grid-gap: 30px;
+    list-style: none;
+}
+
+.card-content {
+    width: 314px;
+    height: 316px;
+    border: 1px solid;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #E6EAF6;
+    position: relative;
+    box-sizing: border-box;
+    padding: 24px;
+}
+
+.card-donate .card-title h3 {
+    width: 178px;
+    left: 24px;
+    top: 5.06%;
+    bottom: 90.51%;
+}
+
+.card-donate .info-service p {
+    width: 134px;
+    height: 22px;
+    display: flex;
+}
+
+.card-title h3 {
+    color: #8798AD;
+    width: 145px;
+    height: 16px;
+    left: 24px;
+    top: 5px;
+    bottom: 90.19%;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1px;
+    text-transform: uppercase;
+}
+
+.button-background {
+    position: absolute;
+    left: 0.32%;
+    right: 0.32%;
+    top: 14.56%;
+    bottom: 85.13%;
+
+    background: #FFFFFF;
+    border: 1px solid #E6EAF6;
+    box-sizing: border-box;
+}
+
+.card-titulo {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    width: 203px;
+    height: 102px;
+    left: 24px;
+    top: 71px;
+}
+
+.card-titulo h1 {
+
+    position: static;
+    height: 66px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 66px/2 - 18px);
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #274264; 
+}
+
+.vehicles h2 {
+
+    position: static;
+    width: 202px;
+    height: 20px;
+    left: 0.5px;
+    top: 82px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #21D170;
+}
+
+.icon-service {
+    position: absolute;
+    width: 48px;
+    right: 24px;
+    top: 22.47%;
+    bottom: 62.34%;
+}
+
+.icon-service img {
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 90%;
+    bottom: 25%;
+}
+
+
+.info-service {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 75px;
+    left: 24px;
+    top: 68.35%;
+    bottom: 24.68%;
+}
+
+.info-service p {
+    position: static;
+    width: 30px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #274264; 
+}
+
+.info-service h4 {
+    position: static;
+    width: 37px;
+    height: 20px;
+    left: 38px;
+    top: 1px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 10px;
+    color: #8798AD;
+
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.btn button {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    
+    position: absolute;
+    width: 99px;
+    right: 24px;
+    top: 66.46%;
+    bottom: 22.78%;
+
+    background: #21D170;
+    border-radius: 5px;
+    border: 1px solid #E6EAF6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn button a {
+    position: static;
+    width: 67px;
+    height: 18px;
+    left: 16px;
+    top: calc(50% - 18px/2);
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn button:hover {
+    background-color: rgba(27, 252, 147, 0.808);
+    transform: scale(1.1);
+}
+
+.button-background-2 {
+    position: absolute;
+    left: 0.32%;
+    right: 0.32%;
+    top: 84.81%;
+    bottom: 14.87%;
+    
+    background: #FFFFFF;
+    border: 1px solid #E6EAF6;
+    box-sizing: border-box;
+}
+
+.locale {
+    position: absolute;
+    width: 60px;
+    left: 24px;
+    top: 89.87%;
+    bottom: 3.8%;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #8798AD;
+}

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+.container {
+
+    position: absolute;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+.first-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+}
+
+.first-container header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.first-container header span {
+    margin-left: 60px;
+
+    color: #274264;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.first-container header a {
+    position: absolute;
+    width: 144px;
+    height: 22px;
+    left: 900px;
+    color: #8798AD;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.first-container h1 {
+    color: #8798AD;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.switch {
+
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 34px;
+    left: 1000px;
+    top: 30px;
+
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #21D170;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.slider.rounded {
+    border-radius: 34px;
+}
+
+.slider.rounded:before {
+    border-radius: 50%;
+}
+
+.buttom-secondary-large button {
+    width: 223px;
+    height: 50px;
+    top: 1170px;
+    border-radius: 6px;
+    padding: 16px, 24px, 16px, 24px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #21D170;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+
+    position: relative;
+    left: 5%;
+    right: 69.9%;
+    top: 76.47%;
+    bottom: 20.26%;
+}
+
+.buttom-secondary-large button {
+    position: relative;
+    left: 6.5%;
+    right: 69.9%;
+    top: 76.47%;
+    bottom: 20.26%;
+
+    border: 1px solid #21D170;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+}
+
+.buttom-secondary-large button p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    left: 24px;
+    top: 15px;
+    font-style: bold;
+
+    display: flex;
+    color: #21D170;
+
+}
+
+.buttom-secondary-large button:hover {
+    background-color: rgba(27, 252, 147, 0.048);
+    transform: scale(1.1);
+}
